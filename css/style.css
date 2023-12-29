@@ -1,0 +1,120 @@
+.main{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.images{
+    width:60px ;
+    height: 90px;
+    margin-bottom: 40px;
+   
+}
+
+
+.navbar{
+    width: 100%;
+    text-align: right;
+}
+.navbar ul{
+    overflow: auto;
+    
+ }
+.navbar li{
+    list-style: none;
+    float: left;
+    padding: 4px;
+    margin: 1px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:gold;
+    margin: 6px;
+   background-color:black;
+   transition:background-color 1.2s ;
+
+}
+.navbar li a:hover{
+    color: black;
+   
+    background-color: white;
+    border: 3px solid gold;
+    padding: 5px;
+
+  
+}
+.navbar{
+    background-color:black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gold;
+    height: 5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+
+}
+.poster img{
+    height: 300px;
+    box-shadow: 50px 50px 50px gold;
+}
+.head line{
+
+    align-items: center;
+}
+h1{
+    padding: 5px;
+    font-size: 30px;
+    border: 2px solid gold;
+    box-shadow: 10px 10px 10px gold;
+    border-radius: 90px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    
+    
+}
+
+.moive img{
+    width:86%;
+    height: 290px;
+    margin: 25px;
+    transition:transform 2s;
+    justify-content: center;
+    box-shadow:10px 10px 10px black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.moive img:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px gold;
+}
+
+
+.sru{
+    display: flex;
+    flex-direction: row;
+}
+.moive p{
+    text-align: center;
+}
+p button{
+  color: black;
+  width:auto;
+  border: 2px solid gold;
+  margin: 40px;
+  margin-right: 6px;
+  border-radius: 5px;
+  background-color: coral ;
+  padding: 10px;
+  box-shadow: 5px 5px 5px gold;
+  margin-top: 20px;
+  text-decoration: none;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+
+
